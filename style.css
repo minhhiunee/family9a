@@ -6,10 +6,10 @@ body {
 }
 .bg {
   animation:slide 4s ease-in-out  infinite alternate;
-  background-image: linear-gradient(-60deg, #a067f5 48%, #09f 50%);
+  background-image: linear-gradient(-60deg, skyblue 48%, #2c202e 50%);
   bottom:0;
   left:-50%;
-  opacity:.5;
+  opacity:.9;
   position:fixed;
   right:-50%;
   top:0;
@@ -56,8 +56,20 @@ li {
 }
 a {
   font-family: "Lucida Handwriting", Cursive;
-  color: #b1d3fc;
+  color: mintcream;
 
+}
+i{
+  background: linear-gradient( to bottom, #17A9FD, #0165E1);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#ins{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .center {
   display: block;
